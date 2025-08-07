@@ -1,26 +1,51 @@
-@import "tailwindcss";
+  @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-outfit: "Outfit", sans-serif;
+  --font-ovo: "Ovo", serif;
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001F;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  font-family: var(--font-outfit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+.font-Ovo {
+  font-family: var(--font-ovo);
+}
+
+@layer utilities {
+  .bg-lightHover {
+    background-color: var(--color-lightHover);
   }
-}
+  .bg-darkHover {
+    background-color: var(--color-darkHover);
+  }
+  .bg-darkTheme {
+    background-color: var(--color-darkTheme);
+  }
+  .text-lightHover {
+    color: var(--color-lightHover);
+  }
+  .text-darkHover {
+    color: var(--color-darkHover);
+  }
+  .text-darkTheme {
+    color: var(--color-darkTheme);
+  }
+  .hover\:shadow-black:hover { 
+    box-shadow: 4px 4px 0 #000; 
+  }
+  .hover\:shadow-white:hover { 
+    box-shadow: 4px 4px 0 #fff; 
+  }
+  .hover\:bg-lightHover:hover { 
+    background-color: var(--color-lightHover); 
+  }.grid-cols-auto {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
