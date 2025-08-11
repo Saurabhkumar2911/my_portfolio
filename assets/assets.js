@@ -290,7 +290,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Portfolio",
       description:
-        "I developed a modern, responsive personal portfolio. The portfolio features key sections like Home, About Me, Education, Skills, Certifications, My Work, and Contact, all built with dynamic routing for seamless navigation. Designed for optimal performance and accessibility, it highlights my expertise in React, Next.js, and tailwind CSS while providing an interactive user experience. The clean layout, fast loading times, and mobile-friendly design make it an effective platform.",
+        "I developed a modern, responsive personal portfolio. The portfolio features key sections like Home, About Me, Education, Skills, Certifications, My Work, and Contact, all built with dynamic routing for seamless navigation. The clean layout, fast loading times, and mobile-friendly design make it an effective platform.",
       image: portfolio,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "Next Js", "Tailwind CSS"],
       github: "https://github.com/Saurabhkumar2911/my_portfolio",
@@ -342,7 +342,7 @@ export const SkillsInfo = [
       description:
         "Advanced Weather App is a dynamic web application built with HTML, CSS, and JavaScript that fetches real-time weather data from a weather API and displays it in user-friendly interface. The app allows users to search for weather information by location. It provides accurate meteorological details such as temperature (°C), humidity (%), atmospheric pressure (hPa), wind speed (km/h), and sunset times, making it a practical tool for quick weather checks.",
       image: weather,
-      tags: ["HTML", "CSS", "JavaScript"],
+      tags: ["HTML", "CSS", "JavaScript",'API'],
       github: "https://github.com/Saurabhkumar2911/advanced_weatherSite",
       webapp: "https://advweather11.netlify.app/",
     },    

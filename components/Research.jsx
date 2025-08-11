@@ -123,24 +123,28 @@ const Research = () => {
       </div>
 
       {/* ...................container................................... */}
-       {selectedResearch && (
+       {/* {selectedResearch && (
               <div className="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-90 p-4">
 
-                <div className="bg-gray-100 border border-gray-400 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+                 <div className="bg-gray-100 border border-gray-400 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-hidden relative">
+            <div className="flex justify-end p-4">
+              <button
+                onClick={handleCloseResearch}
+                className="text-gray-800 hover:text-purple-800 text-3xl font-bold"
+              >
+                &times;
+              </button>
+            </div>
+                  
                     
-                  <div className="flex justify-end pr-4 pt-4">
-                     <h3 className="lg:text-3xl text-2xl font-Ovo text-black mb-4 ml-5 mt-3">
+                  <div className="flex justify-end ml-12">
+                     <h3 className="lg:text-3xl text-2xl font-Ovo text-black ">
                         {selectedResearch.title}
                       </h3>
-                    <button
-                      onClick={handleCloseResearch}
-                      className="text-gray-800 hover:text-purple-800 text-3xl font-bold mr-5"
-                        >
-                      &times;
-                    </button>
+                   
                   </div>
       
-                  <div className="flex flex-col">
+                  <div className="flex flex-col ml-8 mr-8 ">
                     
                     <div className="lg:p-6 p-2">
                         
@@ -178,13 +182,71 @@ const Research = () => {
                           className="w-1/2 bg-gray-800 hover:bg-purple-800 text-white px-6 py-2 rounded-xl text-sm md:text-base  text-center font-Ovo transition-colors"
                         >
                           View Live
-                        </a> */}
+                        </a> }
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
+
+            {selectedResearch && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-white bg-opacity-90 p-4">
+    <div className="bg-gray-100 border border-gray-400 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl max-h-[90vh] flex flex-col overflow-hidden relative p-6">
+      {/* Header with close button */}
+      <div className="flex justify-between items-start p-4 border-b border-gray-300 sticky top-0 bg-gray-100 z-10">
+        <h3 className="lg:text-3xl text-2xl font-Ovo text-black ml-4">
+          {selectedResearch.title}
+        </h3>
+        <button
+          onClick={handleCloseResearch}
+          className="text-gray-800 hover:text-purple-800 text-3xl font-bold"
+        >
+          &times;
+        </button>
+      </div>
+      
+      {/* Scrollable content area */}
+      <div className="overflow-y-auto p-6 flex-1">
+        {/* Abstract section with scroll */}
+        <div className="mb-6 max-h-[200px] overflow-y-auto">
+          <p className="text-gray-800 font-Ovo text-justify">
+            <span className="font-Ovo font-black">Abstract: </span>
+            {selectedResearch.abstract}
+          </p>
+        </div>
+        
+        <p className="text-gray-800 mb-6 font-Ovo text-justify">
+          <span className="font-Ovo font-black">Conference: </span>
+          {selectedResearch.Conference}
+        </p>
+
+        <div className="flex flex-wrap gap-2 mb-6">
+          {selectedResearch.keywords.map((keywords, index) => (
+            <span
+              key={index}
+              className="bg-gray-300 text-black text-xs font-semibold font-Ovo rounded-full px-2 py-1"
+            >
+              {keywords}
+            </span>
+          ))}
+        </div>
+      </div>
+      
+      {/* Fixed footer with button */}
+      <div className="sticky bottom-0 bg-gray-100 border-t border-gray-300 p-4 flex justify-center">
+        <a
+          href={selectedResearch.Certificate}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full max-w-md bg-gray-800 hover:bg-purple-800 text-white px-6 py-2 rounded-xl text-sm md:text-base text-center font-Ovo transition-colors"
+        >
+          View Certificate
+        </a>
+      </div>
+    </div>
+  </div>
+)}
 
 
 

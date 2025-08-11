@@ -138,7 +138,7 @@ const Work = () => {
                 <h3 className="lg:text-3xl text-2xl font-Ovo text-black mb-3">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-800 mb-6 font-Ovo text-justify">
+                <p className=" max-h-[200px] overflow-y-auto text-gray-800 mb-6 font-Ovo text-justify">
                   {selectedProject.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
