@@ -111,7 +111,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: '' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Masters of Engineering in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
@@ -124,37 +124,43 @@ export const toolsData = [
 // Skills Section Logo's
 import htmlLogo from './tech_logo/html.png';
 import cssLogo from './tech_logo/css.png';
-import sassLogo from './tech_logo/sass.png';
+// import sassLogo from './tech_logo/sass.png';
 import javascriptLogo from './tech_logo/javascript.png';
 import reactjsLogo from './tech_logo/reactjs.png';
-import angularLogo from './tech_logo/angular.png';
-import reduxLogo from './tech_logo/redux.png';
+// import angularLogo from './tech_logo/angular.png';
+// import reduxLogo from './tech_logo/redux.png';
 import nextjsLogo from './tech_logo/nextjs.png';
 import tailwindcssLogo from './tech_logo/tailwindcss.png';
-import gsapLogo from './tech_logo/gsap.png';
-import materialuiLogo from './tech_logo/materialui.png';
-import bootstrapLogo from './tech_logo/bootstrap.png';
-import springbootLogo from './tech_logo/springboot.png';
+// import gsapLogo from './tech_logo/gsap.png';
+// import materialuiLogo from './tech_logo/materialui.png';
+// import bootstrapLogo from './tech_logo/bootstrap.png';
+// import springbootLogo from './tech_logo/springboot.png';
 import nodejsLogo from './tech_logo/nodejs.png';
-import expressjsLogo from './tech_logo/express.png';
+// import expressjsLogo from './tech_logo/express.png';
 import mysqlLogo from './tech_logo/mysql.png';
 import mongodbLogo from './tech_logo/mongodb.png';
-import firebaseLogo from './tech_logo/firebase.png';
+// import firebaseLogo from './tech_logo/firebase.png';
 import cLogo from './tech_logo/c.png';
 import cppLogo from './tech_logo/cpp.png';
-import javaLogo from './tech_logo/java.png';
+// import javaLogo from './tech_logo/java.png';
 import pythonLogo from './tech_logo/python.png';
-import typescriptLogo from './tech_logo/typescript.png';
+// import typescriptLogo from './tech_logo/typescript.png';
 import gitLogo from './tech_logo/git.png';
 import githubLogo from './tech_logo/github.png';
 import vscodeLogo from './tech_logo/vscode.png';
-import postmanLogo from './tech_logo/postman.png';
-import mcLogo from './tech_logo/mc.png';
-import figmaLogo from './tech_logo/figma.png';
+// import postmanLogo from './tech_logo/postman.png';
+// import mcLogo from './tech_logo/mc.png';
+// import figmaLogo from './tech_logo/figma.png';
 import netlifyLogo from './tech_logo/netlify.png';
 import vercelLogo from './tech_logo/vercel.png';
-import postgreLogo from './tech_logo/postgre.png';
+// import postgreLogo from './tech_logo/postgre.png';
 import csharpLogo from './tech_logo/csharp.png';
+import sqlLogo from './tech_logo/sql.jpg'
+import powerbiLogo from './tech_logo/powerbi.png'
+import dsaLogo from './tech_logo/dsa.png'
+import mlLogo from './tech_logo/ml.png'
+import nlpLogo from './tech_logo/nlp.jpg'
+import oopsLogo from './tech_logo/oops.jpg'
 
 
 // Education Section Logo's
@@ -175,44 +181,37 @@ import weather from './work_logo/weather.jpeg'
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Web Development',
     skills: [
       { name: 'HTML', logo:  htmlLogo},
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
+      // { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
+      // { name: 'Angular', logo: angularLogo },
+      // { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Springboot', logo: springbootLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      // { name: 'Material UI', logo: materialuiLogo },
+      // { name: 'Bootstrap', logo: bootstrapLogo },
       { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+    
     ],
   },
+ 
   {
     title: 'Languages',
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
+      // { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
       { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'SQL', logo: sqlLogo },
+      // { name: 'JavaScript', logo: javascriptLogo },
+      // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
   {
@@ -221,13 +220,29 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
+      // { name: 'Postman', logo: postmanLogo },
+      // { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      // { name: 'Figma', logo: figmaLogo },
+      { name: 'MySQL', logo: mysqlLogo },
+      { name: 'PowerBi', logo: powerbiLogo},
     ],
   },
+   {
+    title: 'Miscellanous',
+    skills: [
+      // { name: 'Springboot', logo: springbootLogo },      
+      // { name: 'Express JS', logo: expressjsLogo },   
+      // { name: 'Firebase', logo: firebaseLogo },
+      // { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'DSA', logo: dsaLogo },
+      { name: 'Oops', logo: oopsLogo },
+      { name: 'ML', logo: mlLogo },
+      { name: 'NLP', logo: nlpLogo },
+    ],
+  },
+  
 ];
 
   
@@ -275,11 +290,11 @@ export const SkillsInfo = [
       id: 0,
       title: "Portfolio",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+        "I developed a modern, responsive personal portfolio. The portfolio features key sections like Home, About Me, Education, Skills, Certifications, My Work, and Contact, all built with dynamic routing for seamless navigation. Designed for optimal performance and accessibility, it highlights my expertise in React, Next.js, and tailwind CSS while providing an interactive user experience. The clean layout, fast loading times, and mobile-friendly design make it an effective platform.",
       image: portfolio,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "",
-      webapp: "",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "Next Js", "Tailwind CSS"],
+      github: "https://github.com/Saurabhkumar2911/my_portfolio",
+      webapp: "https://my-portfolio-eight-pi-44.vercel.app/",
     },
     {
       id: 1,
@@ -315,7 +330,7 @@ export const SkillsInfo = [
       id: 4,
       title: "Codepen Clone",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+        "CodePen Clone is a web-based real-time code editor that allows users to write, edit, and preview HTML, CSS, and JavaScript simultaneously in an interactive environment. Designed for quick prototyping and learning, while maintaining simplicity, making it ideal for debugging, teaching, and experimenting with front-end code in real time.",
       image: codepen,
       tags: ["JavaScript", "HTML", "CSS"],
       github: "https://github.com/Saurabhkumar2911/codepen",
@@ -325,12 +340,31 @@ export const SkillsInfo = [
       id: 5,
       title: "Advanced Weather App",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+        "Advanced Weather App is a dynamic web application built with HTML, CSS, and JavaScript that fetches real-time weather data from a weather API and displays it in user-friendly interface. The app allows users to search for weather information by location. It provides accurate meteorological details such as temperature (°C), humidity (%), atmospheric pressure (hPa), wind speed (km/h), and sunset times, making it a practical tool for quick weather checks.",
       image: weather,
       tags: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Saurabhkumar2911/advanced_weatherSite",
       webapp: "https://advweather11.netlify.app/",
-    },
-  
-    
+    },    
   ];  
+
+
+  export const researchs = [ 
+    {
+      id:0,
+      title: 'Emotion Detection in Text using Pretrained Transformers Models',
+      abstract:'People frequently use text on social media, reviews, messaging, and other platforms to communicate their feelings in the current digital era. For applications like improving customer experiences and developing mental health examinations, it is essential to effectively recognise emotions from these textual inputs. By utilising the ISEAR dataset, this research attempts to design an effective model for text emotion detection utilising machine learning algorithms such as RF, NB, LR, and SVM achieved reasonable accuracy levels between 53% and 59% when paired with feature extraction techniques like CountVectorizer and TF-IDF. Transformer based deep learning models like RoBERTa, DistilBERT and BERT were used to further enhance performance, and achieve accuracy of 76%, 70%, and 73%, respectively. This study highlights the effectiveness of pretrained transformers in capturing complex emotional variations in text data.',
+      keywords:['Emotion recognition', 'Natural Language Processing', 'ISEAR dataset', 'BERT', 'RoBERTa', 'DistilBERT'],
+      Conference:'International Conference on Advancement in Communication \&  Computing in Technology (INOACC-2025)',
+      Certificate:"https://drive.google.com/file/d/1Oq9A5OdtR45siaGbHW8jX0DkeQUPPIse/view?usp=drive_link",
+    },
+
+    {
+      id:1,
+      title: 'Comparative Analysis of Transformer Models for Emotion Classification on the GoEmotions Dataset',
+      abstract:'Emotion detection from text is essential to understand human behaviour, sentiment and psychological states. There are diverse range of implementations, including analysis of sentiment, human-computer interaction & mental health monitoring. Research utilizes the GoEmotions dataset, this includes distinct 27 emotions in addition to neutral class and applies advanced models based on Transformer like RoBERTa, DistilBERT, BERT and XLNet to perform a comprehensive comparative analysis. Ekmans six basic emotions and sentiment taxonomy were also predicted in order to evaluate model generalisation. RoBERTa achieved the highest accuracy of 55% on fine-grained emotion classification, 68% on Ekman taxonomy and 71% accurate on Sentiment classification. All models performed notably better when emotions were mapped to Ekman and sentiment taxonomy. DistilBERT demonstrated the most balanced performance, combining competitive accuracy with lower computational demands, enabling real-time deployment in applications. This research establishes pretrained transformers as particularly effective for emotion classification and in capturing complex emotional variations in text data.',
+      keywords:['Emotion detection', 'Natural Language Processing', 'BERT', 'RoBERTa', 'DistilBERT', 'XLNet', 'GoEmotions' ],
+      Conference:'THE 16th INTERNATIONAL IEEE CONFERENCE ON COMPUTING, COMMUNICATION AND NETWORKING TECHNOLOGIES (ICCCNT)',
+      Certificate:' https://drive.google.com/file/d/1Ns23S9QNemTtBmOjL_ygRyC-efU8-H6Y/view?usp=drive_link',
+    },
+  ];

@@ -40,7 +40,7 @@ const About = () => {
             transition={{duration:0.6, delay:0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo text-justify'>
-                    My name is Saurabh kumar, and I am a frontend web developer. I aim to use my knowledge and experience in web development, machine learning,  and natural language processing to work on creative and meaningful projects.
+                    My name is Saurabh Kumar, and I am a frontend web developer with expertise in modern technologies like React.js, Next.js, and Tailwind CSS. With additional experience in backend development (Node.js, MongoDB) and data analytics (Power BI, SQL, Python). I also have knowledge of machine learning (ML) and natural language processing (NLP). My goal is to leverage these skills to work on creative and meaningful projects.
                 </p>
             <motion.ul 
             initial={{opacity:0}}

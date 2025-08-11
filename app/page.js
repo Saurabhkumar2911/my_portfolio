@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Certification from "@/components/Certification";
+import Research from "@/components/Research";
 
 export default function Home() {
 
@@ -20,6 +21,7 @@ export default function Home() {
     <Skills/>
     <Certification/>
     <Work/>
+    <Research/>
     <Contact/>
     <Footer/>
     </>

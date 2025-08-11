@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
-
+ 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
   };
@@ -13,6 +13,7 @@ const Work = () => {
   const handleCloseModal = () => {
     setSelectedProject(null);
   };
+
 
   const cardBgColor = "bg-white";
   const cardBorderColor = "border-gray-400";
@@ -134,13 +135,13 @@ const Work = () => {
                 />
               </div>
               <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl text-2xl font-Ovo text-black mb-4">
+                <h3 className="lg:text-3xl text-2xl font-Ovo text-black mb-3">
                   {selectedProject.title}
                 </h3>
                 <p className="text-gray-800 mb-6 font-Ovo text-justify">
                   {selectedProject.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-4">
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
@@ -173,8 +174,14 @@ const Work = () => {
           </div>
         </div>
       )}
+
+
+
+
     </motion.section>
   );
-};
+
+  
+}
 
 export default Work;
