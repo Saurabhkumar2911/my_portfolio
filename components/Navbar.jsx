@@ -55,7 +55,7 @@ const Navbar = () => {
           border-gray-500 rounded-full ml-4 font-Ovo'>Contact <Image src={assets.arrow_icon} 
           alt="" className='w-3'/></a> }
 
-          <button className='block md:hidden ml-3' onClick={openMenu}>
+          <button className='block md:hidden ml-8' onClick={openMenu}>
             <Image  src={assets.menu_black} alt='' className='w-6'/>
           </button>
         </div>

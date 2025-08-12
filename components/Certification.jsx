@@ -35,7 +35,7 @@ const Certification = () => {
     whileInView={{ opacity:1}}
     transition={{delay:0.1, duration:0.5}}
     className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        My name is Saurabh Kumar, and I am a Machine Learning Engineer. I aim to use my knowledge and experience in web development, machine learning, and natural language processing to work on creative and meaningful projects.
+        A collection of my verified technical certifications.
     </motion.p>
     
     <motion.div 
