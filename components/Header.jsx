@@ -49,7 +49,7 @@ const Header = () => {
             whileInView={{y:0, opacity:1}}
             transition={{duration:0.6, delay:1.2}}
             // onClick={handleResumeClick}
-            href='https://drive.google.com/file/d/1UzUED_Yu3oBBQu5mgZX_ggVSywxpZ-0X/view?usp=sharing'
+            href='https://drive.google.com/file/d/1wzPuerA4e4df7Zyl7i5Z7k8mcO-A4DMq/view?usp=drive_link'
             target="_blank"
             className='px-10 py-3 border rounded-full 
             border-gray-500 flex items-center gap-2' >My Resume 
