@@ -230,7 +230,7 @@ export const SkillsInfo = [
     ],
   },
    {
-    title: 'Miscellanous',
+    title: 'Miscellaneous',
     skills: [
       // { name: 'Springboot', logo: springbootLogo },      
       // { name: 'Express JS', logo: expressjsLogo },   
