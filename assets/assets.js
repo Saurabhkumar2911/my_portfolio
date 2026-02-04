@@ -100,14 +100,15 @@ export const workData = [
 import dl from './certification/dl.png';
 import ml from './certification/ml.png';
 import py from './certification/py.png';
-import js from './certification/js.png';
+// import js from './certification/js.png';
+import oci from './certification/oci_ai.jpg'
 
 
 export const serviceData = [
-    { icon: dl, title: 'Deep Learning and Reinforcement Learning', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: ml, title: 'Machine Learning in Production', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: py, title: 'Python Programming Fundamentals', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: js, title: 'Learn Javascript', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: dl, title: 'Deep Learning and Reinforcement Learning', description: '', link: '' },
+    { icon: ml, title: 'Machine Learning in Production', description: '', link: '' },
+    { icon: py, title: 'Python Programming Fundamentals', description: '', link: '' },
+    { icon: oci, title: 'OCI AI Foundations Associate', description: '', link: '' },
 ]
 
 export const infoList = [
